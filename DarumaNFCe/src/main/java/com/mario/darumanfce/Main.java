@@ -27,10 +27,8 @@ public class Main {
 
         NFCe.regAlterarValor("CONFIGURACAO\\EmpPK", "");
 
+        //Impressora
         UTIL.regAlterarValor("DUAL\\PortaComunicacao", "192.168.0.1:2000");
-        //UTIL.regAlterarValor("NFCE\\PortaComunicacao", "192.168.0.1:2000");
-        
-        
         
         NFCe.aCFAbrir("08799507900", "Mario Feles", "", "", "", "", "", "", "");
         NFCe.aCFVender("1", "1", "3", "0", "0", "1", "UN", "Coca-Cola");
