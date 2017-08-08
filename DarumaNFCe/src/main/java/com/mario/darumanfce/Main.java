@@ -25,7 +25,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        NFCe.regAlterarValor("CONFIGURACAO\\EmpPK", "2V5+xavDi4hHbGoc/0HZiQ==");
+        NFCe.regAlterarValor("CONFIGURACAO\\EmpPK", "");
 
         UTIL.regAlterarValor("DUAL\\PortaComunicacao", "192.168.0.1:2000");
         //UTIL.regAlterarValor("NFCE\\PortaComunicacao", "192.168.0.1:2000");
